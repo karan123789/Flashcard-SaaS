@@ -3,6 +3,7 @@ import getStripe from '@/utils/get-stripe';
 import { AppBar, Toolbar, Typography, Button, Box, Grid, Container, Card, CardContent } from '@mui/material';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
 
